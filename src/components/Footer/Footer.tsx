@@ -49,7 +49,7 @@ const Footer = () => {
                 className={`${styles.footer} df fdc jcsb`}
                 style={{
                     transform: `translateY(-${footerTranslate}px)`,
-                    transition: 'transform 1.5s ease-out',
+                    transition: 'transform 2s ease-out',
                 }}
             >
                 <div className={`${styles.top} df jcsb`}>

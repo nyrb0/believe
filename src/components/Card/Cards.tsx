@@ -7,7 +7,7 @@ const cards = [
     {
         id: 1,
         title: '“Faith is the bird that feels the light and sings when the dawn is still dark.”',
-        avatar: '/public/image/avatar/1.png',
+        avatar: '/image/avatar/1.png',
         author: 'Rabindranath Tagore',
         description:
             'British Indian polymath who worked as a poet, writer, playwright, composer, philosopher, social reformer, and painter of the Bengal Renaissance',
@@ -15,14 +15,14 @@ const cards = [
     {
         id: 2,
         title: '“Faith is the force of life. If a man lives, he must believe in something.”',
-        avatar: '/public/image/avatar/2.png',
+        avatar: '/image/avatar/2.png',
         author: 'Leo Tolstoy',
         description: 'Russian writer. He is regarded as one of the greatest and most influential authors of all time',
     },
     {
         id: 3,
         title: '“Take the first step in faith. You don’t have to see the whole staircase, just take the first step.”',
-        avatar: '/public/image/avatar/3.png',
+        avatar: '/image/avatar/3.png',
         author: 'Martin Luther King Jr',
         description:
             'American Baptist minister, activist, and political philosopher who was one of the most prominent leaders in the civil rights movement from 1955 until his assassination in 1968.',
@@ -30,7 +30,7 @@ const cards = [
     {
         id: 4,
         title: '“Jump off the cliff and build your wings on the way down.”',
-        avatar: '/public/image/avatar/4.png',
+        avatar: '/image/avatar/4.png',
         author: 'Ray Bradbury',
         description:
             'One of the most celebrated 20th-century American writers, he worked in a variety of genres, including fantasy, science fiction, horror, mystery, and realistic fiction',
@@ -38,7 +38,7 @@ const cards = [
     {
         id: 5,
         title: '“All our dreams can come true, if we have the courage to pursue them.”',
-        avatar: '/public/image/avatar/5.png',
+        avatar: '/image/avatar/5.png',
         author: 'Walt Disney',
         description:
             'A pioneer of the American animation industry, he introduced several developments in the production of cartoons. As a film producer, he holds the record for most Academy Awards earned and nominations by an individual',
@@ -46,7 +46,7 @@ const cards = [
     {
         id: 6,
         title: '“Believe that life is worth living, and your belief will help create the fact.”',
-        avatar: '/public/image/avatar/6.png',
+        avatar: '/image/avatar/6.png',
         author: 'William James',
         description:
             'The first educator to offer a psychology course in the United States, he is considered to be one of the leading thinkers of the late 19th century, one of the most influential philosophers and is often dubbed the "father of American psychology."',
@@ -54,14 +54,14 @@ const cards = [
     {
         id: 7,
         title: '“Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.”',
-        avatar: '/public/image/avatar/7.png',
+        avatar: '/image/avatar/7.png',
         author: 'Helen Keller',
         description: 'American author, disability rights advocate, political activist and lecturer',
     },
     {
         id: 8,
         title: '“Faith is the force of life. If a man lives, he must believe in something.”',
-        avatar: '/public/image/avatar/8.png',
+        avatar: '/image/avatar/8.png',
         author: 'Mahatma Gandhi',
         description: `Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule`,
     },

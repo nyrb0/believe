@@ -57,6 +57,9 @@
         & p:last-child {
             opacity: 30%;
         }
+        @media (max-width: 720px) {
+            font-size: 14px;
+        }
     }
 }
 
