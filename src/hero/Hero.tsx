@@ -7,8 +7,8 @@ const Hero = () => {
         <div className={`${styles.hero} df aic`}>
             <div>
                 <h1>
-                    <span style={{ filter: 'blur(1.5px)' }}>Be</span>
-                    <span style={{ filter: 'blur(1px)' }}>li</span>eve in <RotatingWords />
+                    <span className={styles.blur}>Be</span>
+                    <span className={styles.blur}>li</span>eve in <RotatingWords />
                 </h1>
                 <motion.h2
                     initial={{ opacity: 0, y: 70, filter: 'blur(20px)' }}

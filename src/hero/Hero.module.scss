@@ -4,7 +4,13 @@ $breakpoint-mobile: 480px;
 
 .hero {
     height: 100vh;
+
     h1 {
+        & .blur {
+            filter: blur(3px);
+            filter: blur(1.2px);
+        }
+
         font-size: 160px;
         @media (max-width: 1878px) {
             font-size: 140px;
@@ -20,9 +26,17 @@ $breakpoint-mobile: 480px;
         }
         @media (max-width: 930px) {
             font-size: 40px;
+            & .blur {
+                filter: blur(2px);
+                filter: blur(0.9px);
+            }
         }
         @media (max-width: 720px) {
             font-size: 36px;
+            & .blur {
+                filter: blur(1px);
+                filter: blur(0.6px);
+            }
         }
         @media (max-width: 400px) {
             font-size: 30px;
