@@ -25,8 +25,8 @@ function App() {
             </div>
             <Cards />
             <div className='container'>
-                <Summary />
                 <Questions />
+                <Summary />
                 <div className='believe df jcc '>
                     <Believe />
                 </div>
