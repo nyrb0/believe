@@ -68,7 +68,7 @@ const cards = [
     {
         id: 9,
         title: '“The future belongs to those who believe in the beauty of their dreams.”',
-        avatar: '/public/image/avatar/9.png',
+        avatar: '/image/avatar/9.png',
         author: 'Eleanor Roosevelt',
         description: 'American political figure, diplomat, and activist. She was the longest-serving first lady of the United States',
     },
