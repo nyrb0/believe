@@ -24,6 +24,9 @@ $breakpoint-mobile: 480px;
         @media (max-width: 720px) {
             font-size: 36px;
         }
+        @media (max-width: 400px) {
+            font-size: 30px;
+        }
     }
     h2 {
         font-weight: 700;
