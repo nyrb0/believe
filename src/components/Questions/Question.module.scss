@@ -23,6 +23,7 @@
             display: block;
         }
         .right {
+            min-width: 600px;
             max-width: 600px;
             width: 100%;
             h3 {
@@ -35,13 +36,17 @@
                 @media (max-width: 1770px) {
                     font-size: 100px;
                 }
-
                 @media (max-width: 1380px) {
                     font-size: 56px;
                 }
                 @media (max-width: 720px) {
                     margin-top: 16px;
                 }
+            }
+
+            @media (max-width: 1770px) {
+                min-width: 300px;
+                max-width: 300px;
             }
         }
         .left {
