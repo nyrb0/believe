@@ -42,9 +42,10 @@
         margin-top: 40px;
         font-size: 48px;
         font-weight: 400;
-        @media (max-width: 1260px) {
+        @media (max-width: 1530px) {
             font-size: 30px;
         }
+
         @media (max-width: 1102px) {
             font-size: 24px;
             line-height: 110%;
@@ -73,7 +74,7 @@
         font-family: 'Panama', sans-serif;
         opacity: 0.3;
         padding-bottom: 5px;
-        @media (max-width: 1260px) {
+        @media (max-width: 1530px) {
             font-size: 18px;
         }
 
@@ -96,7 +97,7 @@
 
 .cards {
     margin-top: 298px;
-
+    margin-left: 16px;
     .h2 {
         text-align: center;
         & h2 {

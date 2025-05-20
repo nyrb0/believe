@@ -16,7 +16,9 @@ function App() {
                     <Header />
                 </div>
             </div>
-            <Hero />
+            <div className='hero'>
+                <Hero />
+            </div>
             <div className='container'>
                 <div className='believe_manifesto '>
                     <div className='container'>
@@ -26,13 +28,13 @@ function App() {
                 </div>
                 <Questions />
                 <Summary />
-                <Cards />
-                <div className='container'>
-                    <div className='believe df jcc '>
-                        <Believe />
-                    </div>
-                    <Footer />
+            </div>
+            <Cards />
+            <div className='container'>
+                <div className='believe df jcc '>
+                    <Believe />
                 </div>
+                <Footer />
             </div>
         </>
     );

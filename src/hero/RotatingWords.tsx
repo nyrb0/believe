@@ -1,7 +1,31 @@
 import { useState, useEffect } from 'react';
 
+const words = [
+    'yourself',
+    'your version',
+    'friends',
+    'love',
+    'kindness',
+    'progress',
+    'dreams',
+    'science',
+    'humanity',
+    'hope',
+    'change',
+    'possibilities',
+    'justice',
+    'freedom',
+    'future',
+    'friendship',
+    'equality',
+    'goodness',
+    'courage',
+    'destiny',
+    'truth',
+    'resilience',
+];
+
 const RotatingWords = () => {
-    const words = ['yourself', 'your version', 'friends'];
     const [index, setIndex] = useState(0);
 
     useEffect(() => {

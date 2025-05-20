@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Question from './Question';
 
+import styles from './Question.module.scss';
 const Questions = () => {
     const [state, setState] = useState(1);
 
@@ -30,7 +31,7 @@ const Questions = () => {
     }, []);
 
     return (
-        <div ref={ref}>
+        <div ref={ref} className={styles.quations}>
             <Question
                 onChange={state => state && setState(prev => prev + 1)}
                 isStart={isVisible && state === 1}

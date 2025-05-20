@@ -53,10 +53,11 @@ const cards = [
     },
     {
         id: 7,
-        title: '“Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.”',
+        title: '“You have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever.”',
         avatar: '/image/avatar/7.png',
-        author: 'Helen Keller',
-        description: 'American author, disability rights advocate, political activist and lecturer',
+        author: 'Steve Jobs',
+        description:
+            'Steve Jobs was an American entrepreneur, visionary designer, and co-founder of Apple Inc. Renowned for blending technology with elegant, user-centered design, he helped create groundbreaking products like the Macintosh, iPod, iPhone, and iPad, reshaping personal computing, music, and mobile industries.',
     },
     {
         id: 8,
@@ -96,8 +97,8 @@ const Cards = () => {
                         <Card data={cards[3]} />
                         <Card data={cards[4]} />
                         <Card data={cards[5]} />
-                        <Card data={cards[6]} />
                         <Card data={cards[7]} />
+                        <Card data={cards[8]} />
                     </div>
                     <div className={styles.column3}>
                         <Card data={cards[6]} />
