@@ -8,7 +8,7 @@ const Hero = () => {
             <div>
                 <h1>
                     <span className={styles.blur}>Be</span>
-                    <span className={styles.blur}>li</span>eve in <RotatingWords />
+                    <span className={styles.last}>li</span>eve in <RotatingWords />
                 </h1>
                 <motion.h2
                     initial={{ opacity: 0, y: 70, filter: 'blur(20px)' }}
