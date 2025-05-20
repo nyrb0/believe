@@ -24,8 +24,10 @@ function App() {
                     <div className='container'>
                         <BelieveManifesto />
                     </div>
-                    <MobileBelieveManifesto />
                 </div>
+            </div>
+            <MobileBelieveManifesto />
+            <div className='container'>
                 <Questions />
                 <Summary />
             </div>
