@@ -15,22 +15,24 @@ function App() {
                 <div className='df jcc'>
                     <Header />
                 </div>
-                <Hero />
             </div>
-            <div className='believe_manifesto '>
-                <div className='container'>
-                    <BelieveManifesto />
-                </div>
-                <MobileBelieveManifesto />
-            </div>
-            <Cards />
+            <Hero />
             <div className='container'>
+                <div className='believe_manifesto '>
+                    <div className='container'>
+                        <BelieveManifesto />
+                    </div>
+                    <MobileBelieveManifesto />
+                </div>
                 <Questions />
                 <Summary />
-                <div className='believe df jcc '>
-                    <Believe />
+                <Cards />
+                <div className='container'>
+                    <div className='believe df jcc '>
+                        <Believe />
+                    </div>
+                    <Footer />
                 </div>
-                <Footer />
             </div>
         </>
     );
